@@ -68,7 +68,7 @@ function Card() {
                 <div className="w-full first-section-card flex flex-col items-center text-center text-[var(--custom-color)]">
                     <div className="card-header">
                         <h1 className="text-4xl font-bold leading-normal">Lisandro peres</h1>
-                        <p>Pene versus vagina</p>
+                        <p>Descripción</p>
                     </div>
                     <div className="card-social">
                         <ul>
