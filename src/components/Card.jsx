@@ -67,8 +67,8 @@ function Card() {
             <div className="card w-[1000px] h-[40rem] border-2 rounded-2xl p-4 flex gap-4 justify-center overflow-hidden backdrop-blur-[15px] border-[var(--custom-color)]">
                 <div className="w-full first-section-card flex flex-col items-center text-center text-[var(--custom-color)]">
                     <div className="card-header">
-                        <h1 className="text-4xl font-bold leading-normal">Lisandro peres</h1>
-                        <p>Descripción</p>
+                        <h1 className="text-4xl font-bold leading-normal">CASTLES 𒌐</h1>
+                        <p className="m-auto w-max">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                     <div className="card-social">
                         <ul>
