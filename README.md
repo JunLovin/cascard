@@ -4,7 +4,7 @@ Una tarjeta de presentación y otra con tiktoks (cambiable o borrable), ambas ta
 
 ## Vista Previa
 
-![Screenshot](./public/screenshot.png)
+![Vista Previa](./public/screenshot.png)
 
 ## Uso
 
