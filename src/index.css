@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --custom-color: #413B2C;
+    --custom-green: #24748a;
+    --custom-white: #CAC6E0;
+    --font-inter: 'Inter', sans-serif;
+    --breakpoint-xxs: 31.25rem;
+}
+
+@layer components {
+    li {
+        @apply inline-block mx-12 my-6 p-4 border-2 border-[var(--custom-green)] rounded-full backdrop-blur-2xl cursor-pointer text-[var(--custom-color)]
+    }
+    .player-buttons {
+        @apply mx-8
+    }
+}
+
+.rotate {
+    animation: girar 3s linear infinite;
+}
+
+.paused {
+    animation-play-state: paused;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
