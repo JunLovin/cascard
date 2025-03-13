@@ -6,9 +6,9 @@ Una tarjeta de presentación y otra con tiktoks (cambiable o borrable), ambas ta
 
 ![Vista Previa](./public/screenshot.png)
 
-## Uso
+## Instalación
 
-En caso de desear utilizar o modificar las tarjetas, ingresar estos comandos:
+Si deseas utilizar el proyecto en tu máquina local, sigue estos pasos:
 
 ```bash
 git clone https://github.com/JunLovin/cascard.git
@@ -19,3 +19,9 @@ cd cascard
 npm install
 npm run dev
 ```
+
+## Tecnologías
+
+- Vanilla-tilt
+- TailwindCSS
+- React
