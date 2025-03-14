@@ -11,10 +11,10 @@
 
 @layer components {
     li {
-        @apply inline-block mx-12 my-6 p-4 border-2 border-[var(--custom-green)] rounded-full backdrop-blur-2xl cursor-pointer text-[var(--custom-color)]
+        @apply inline-block mx-12 my-6 p-4 border-2 border-[var(--custom-green)] rounded-full backdrop-blur-2xl cursor-pointer text-[var(--custom-color)] max-lg:mx-8 max-sm:mx-4 max-[31rem]:mx-3 max-[26.25rem]:mx-2 max-[31rem]:p-3
     }
     .player-buttons {
-        @apply mx-8
+        @apply mx-8 max-sm:mx-6 max-[25rem]:mx-4
     }
 }
 

@@ -9,7 +9,7 @@ function TikTokCard() {
         VanillaTilt.init(document.getElementById('tiktokCard'), {
             max: 25,
             speed: 400,
-            gyroscope: false,
+            gyroscope: true,
             glare: false,
             scale: 1.05,
             perspective: 1000,
@@ -36,7 +36,7 @@ function TikTokCard() {
 
     return (
         <>
-            <div id="tiktokCard" className="second-section-card w-[500px] h-[45.5rem] border-2 rounded-2xl border-[var(--custom-color)] backdrop-blur-[15px] flex flex-col justify-center items-center p-3">
+            <div id="tiktokCard" className="second-section-card w-[500px] h-[45.5rem] border-2 rounded-2xl border-[var(--custom-color)] backdrop-blur-[15px] flex flex-col justify-center items-center p-3 max-sm:w-[400px] max-[25rem]:w-[350px]">
                 <h2 className="text-[var(--custom-color)] text-2xl font-extrabold leading-normal mb-[.5rem]">Mis Tik Toks más populares</h2>
                 <div className="video-container w-max h-[570px] relative">
                     <iframe
