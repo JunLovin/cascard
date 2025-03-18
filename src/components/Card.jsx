@@ -67,7 +67,7 @@ function Card() {
             <div className="card w-[1000px] h-[40rem] border-2 rounded-2xl p-4 flex gap-4 justify-center overflow-hidden backdrop-blur-[15px] border-[var(--custom-color)] max-xl:w-[90%]">
                 <div className="w-full first-section-card flex flex-col items-center text-center text-[var(--custom-color)]">
                     <div className="w-full card-header">
-                        <h1 className="text-4xl font-bold leading-normal">CASTLES 𒌐</h1>
+                        <h1 className="text-4xl font-bold leading-normal">nsqk</h1>
                         <p className="m-auto w-[80%] mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                     <div className="card-social max-lg:">
@@ -81,7 +81,9 @@ function Card() {
                     <div className="flex gap-4 max-sm:gap-1 items-center w-full card-profile h-[9rem] border-2 border-[var(--custom-green)] rounded-2xl px-3 mb-6">
                         <div className="flex relative justify-center items-center h-full profile-container">
                             <img src={Pfp} alt="Discord Profile" className="rounded-full profile-image max-sm:scale-90" />
-                            <div className="absolute bg-[#23A55A] size-[1.50rem] rounded-full bottom-4 right-3" title="Available"></div>
+                            <div className="absolute bg-[#23A55A] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Available"></div>
+                            <div className="absolute bg-[#797C86] size-[1.50rem] rounded-full bottom-4 right-3" title="Offline"></div>
+                            <div className="absolute bg-red size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Don't Disturb"></div>
                         </div>
                         <div className="flex flex-col justify-around h-[60%] max-sm:justify-center max-sm:gap-1">
                             <h2 className="text-3xl font-bold text-left cursor-pointer max-[26.25rem]:text-xl" onClick={handleDiscordClick}>nsqk</h2>
