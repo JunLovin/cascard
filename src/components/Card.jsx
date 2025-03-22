@@ -82,8 +82,8 @@ function Card() {
                         <div className="flex relative justify-center items-center h-full profile-container">
                             <img src={Pfp} alt="Discord Profile" className="rounded-full profile-image max-sm:scale-90" />
                             <div className="absolute bg-[#23A55A] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Available"></div>
-                            <div className="absolute bg-[#797C86] size-[1.50rem] rounded-full bottom-4 right-3" title="Offline"></div>
-                            <div className="absolute bg-red size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Don't Disturb"></div>
+                            <div className="absolute bg-[#797C86] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Offline"></div>
+                            <div className="absolute bg-[#f23f43] size-[1.50rem] rounded-full bottom-4 right-3" title="Don't Disturb"></div>
                         </div>
                         <div className="flex flex-col justify-around h-[60%] max-sm:justify-center max-sm:gap-1">
                             <h2 className="text-3xl font-bold text-left cursor-pointer max-[26.25rem]:text-xl" onClick={handleDiscordClick}>nsqk</h2>
@@ -92,8 +92,8 @@ function Card() {
                                 <a href="https://said-beta.vercel.app" target="_blank"><img src={TagBadge} alt="Developer Badge" className="badge-developer badge size-[1.5rem]" /></a>
                                 <a href="https://discord.com/ads/quests" target="_blank"><img src={QuestBadge} alt="Quest Badge" className="badge-quest badge size-[1.5rem]" /></a>
                             </div>
-                            <div className="text-status w-[375px] bg-[var(--custom-color)] text-[var(--custom-white)] rounded-2xl flex justify-center pl-3 mt-1 max-lg:w-[60%] max-[45rem]:overflow-hidden max-sm:hidden">
-                                <p className="hidden text-left">Uno dos uno dos te juro que yo siempre estaré cuando estás</p>
+                            <div className="text-status w-max pr-3 bg-[var(--custom-color)] text-[var(--custom-white)] rounded-2xl flex justify-center pl-3 mt-1 max-lg:w-[60%] max-[45rem]:overflow-hidden max-sm:hidden">
+                                <p className="text-left">80s</p>
                             </div>
                         </div>
                         <div onClick={handleDiscordClick} className="absolute right-8 add-friend px-8 py-4 border-2 border-[var(--custom-green)] rounded-2xl mr-6 cursor-pointer max-sm:right-2 max-[28rem]:hidden max-[30rem]:border-none max-[30rem]:right-0">
