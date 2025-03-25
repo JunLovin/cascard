@@ -67,7 +67,7 @@ function Card() {
             <div className="card w-[1000px] h-[40rem] border-2 rounded-2xl p-4 flex gap-4 justify-center overflow-hidden backdrop-blur-[15px] border-[var(--custom-color)] max-xl:w-[90%]">
                 <div className="w-full first-section-card flex flex-col items-center text-center text-[var(--custom-color)]">
                     <div className="w-full card-header">
-                        <h1 className="text-4xl font-bold leading-normal">nsqk</h1>
+                        <h1 className="text-4xl font-bold leading-normal">ABBUUUSsEEEEE AIM</h1>
                         <p className="m-auto w-[80%] mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                     <div className="card-social max-lg:">
@@ -86,14 +86,14 @@ function Card() {
                             <div className="absolute bg-[#f23f43] size-[1.50rem] rounded-full bottom-4 right-3" title="Don't Disturb"></div>
                         </div>
                         <div className="flex flex-col justify-around h-[60%] max-sm:justify-center max-sm:gap-1">
-                            <h2 className="text-3xl font-bold text-left cursor-pointer max-[26.25rem]:text-xl" onClick={handleDiscordClick}>nsqk</h2>
+                            <h2 className="text-3xl font-bold text-left cursor-pointer max-[26.25rem]:text-xl" onClick={handleDiscordClick}>ABBUUUSsEEEEE AIM</h2>
                             <div className="flex gap-1 badge-container">
                                 <a href="https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge" target="_blank"><img src={BraveryBadge} alt="Developer Badge" className="badge-developer badge size-[1.5rem]" /></a>
                                 <a href="https://said-beta.vercel.app" target="_blank"><img src={TagBadge} alt="Developer Badge" className="badge-developer badge size-[1.5rem]" /></a>
                                 <a href="https://discord.com/ads/quests" target="_blank"><img src={QuestBadge} alt="Quest Badge" className="badge-quest badge size-[1.5rem]" /></a>
                             </div>
                             <div className="text-status w-max pr-3 bg-[var(--custom-color)] text-[var(--custom-white)] rounded-2xl flex justify-center pl-3 mt-1 max-lg:w-[60%] max-[45rem]:overflow-hidden max-sm:hidden">
-                                <p className="text-left">80s</p>
+                                <p className="text-left">Baby, I know</p>
                             </div>
                         </div>
                         <div onClick={handleDiscordClick} className="absolute right-8 add-friend px-8 py-4 border-2 border-[var(--custom-green)] rounded-2xl mr-6 cursor-pointer max-sm:right-2 max-[28rem]:hidden max-[30rem]:border-none max-[30rem]:right-0">
