@@ -11,6 +11,7 @@ function Card() {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(new Audio(TrueLove));
     const albumRef = useRef(null);
+    const tooltipRef = useRef(null);
     audioRef.current.volume = 0.2;
 
     const handleLink = url => {
@@ -81,9 +82,22 @@ function Card() {
                     <div className="flex gap-4 max-sm:gap-1 items-center w-full card-profile h-[9rem] border-2 border-[var(--custom-green)] rounded-2xl px-3 mb-6">
                         <div className="flex relative justify-center items-center h-full profile-container">
                             <img src={Pfp} alt="Discord Profile" className="rounded-full profile-image max-sm:scale-90" />
-                            <div className="absolute bg-[#23A55A] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Available"></div>
-                            <div className="absolute bg-[#797C86] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Offline"></div>
-                            <div className="absolute bg-[#f23f43] size-[1.50rem] rounded-full bottom-4 right-3" title="Don't Disturb"></div>
+                            <div className="hidden absolute right-0 bottom-12 z-10 px-2 py-1 w-max rounded-xl shadow-2xl backdrop-blur-xl tooltip h-max bg-white/5" ref={tooltipRef}><h2>uwu</h2></div>
+                            <div className="absolute bg-[#23A55A] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Available" onMouseEnter={() => {
+                                tooltipRef.current.classList.remove('hidden')
+                            }} onMouseLeave={() => {
+                                tooltipRef.current.classList.add('hidden')
+                            }}></div>
+                            <div className="absolute bg-[#797C86] size-[1.50rem] rounded-full bottom-4 right-3 hidden" title="Offline" onMouseEnter={() => {
+                                tooltipRef.current.classList.remove('hidden')
+                            }} onMouseLeave={() => {
+                                tooltipRef.current.classList.add('hidden')
+                            }}></div>
+                            <div className="absolute bg-[#f23f43] size-[1.50rem] rounded-full bottom-4 right-3" title="Don't Disturb" onMouseEnter={() => {
+                                tooltipRef.current.classList.remove('hidden')
+                            }} onMouseLeave={() => {
+                                tooltipRef.current.classList.add('hidden')
+                            }}></div>
                         </div>
                         <div className="flex flex-col justify-around h-[60%] max-sm:justify-center max-sm:gap-1">
                             <h2 className="text-3xl font-bold text-left cursor-pointer max-[26.25rem]:text-xl" onClick={handleDiscordClick}>ABBUUUSsEEEEE AIM</h2>
